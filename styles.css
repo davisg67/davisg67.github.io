@@ -20,7 +20,8 @@ body {
 }
 
 .title-space {
-	margin-bottom: 40px;
+    margin-bottom: 40px;
+    margin-left: 25px;
 }
 
 .title-line {
@@ -72,7 +73,8 @@ header {
 }
 
 #landing-row4 {
-	margin-top: 200px;
+    margin-top: 160px;
+    margin-bottom: 40px;
 }
 
 
@@ -91,7 +93,7 @@ header {
  
  .frame {
     background-color: #f2f2f2;
-    width: 250px;
+    width: 220px;
 	height: 250px;
     border: 5px solid black;
     padding: 25px;
@@ -111,7 +113,7 @@ img {
 /* Contact */
 #contact {
 	padding-top: 80px; 	
-	padding-bottom: 240px; 
+	padding-bottom: 220px; /*240*/
 	margin-bottom: 40px;
  }
  
@@ -128,26 +130,15 @@ img {
     color: black;
 }
 
-
-/*1024x768*/
+/*1024x768 or less*/
 @media only screen and (max-width: 1024px) {
     #landing-row4 {
         margin-top: 150px;
     }
     
-    #portfolio {
-        width: 350px;
-        margin: 0 auto;
-      
-    }
-
     #contact {
         padding-bottom: 260px; 	
     } 
-
-    .frame {
-        width: 270px;
-    }
 
 }   
 
