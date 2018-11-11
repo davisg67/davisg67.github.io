@@ -58,7 +58,7 @@ hr {
 /* Header */
 header {
 	padding-top: 160px;
-	padding-bottom: 60px;
+	/* padding-bottom: 60px; */
 }
 
 
@@ -79,14 +79,14 @@ header {
  /* About */
  #about {
 	 padding-top: 80px;
-	 padding-bottom: 170px; 
+	 /* padding-bottom: 170px;  */
  }
  
  
  /* Portfolio */
  #portfolio {
 	padding-top: 80px; 	
-	padding-bottom: 220px;
+	/* padding-bottom: 220px; */
  }
  
  .frame {
@@ -111,7 +111,7 @@ img {
 /* Contact */
 #contact {
 	padding-top: 80px; 	
-	padding-bottom: 240px;
+	padding-bottom: 240px; 
 	margin-bottom: 40px;
  }
  
@@ -129,7 +129,27 @@ img {
 }
 
 
+/*1024x768*/
+@media only screen and (max-width: 1024px) {
+    #landing-row4 {
+        margin-top: 150px;
+    }
+    
+    #portfolio {
+        width: 350px;
+        margin: 0 auto;
+      
+    }
 
+    #contact {
+        padding-bottom: 260px; 	
+    } 
+
+    .frame {
+        width: 270px;
+    }
+
+}   
 
 
 
