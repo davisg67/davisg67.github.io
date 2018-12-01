@@ -1,8 +1,18 @@
 
+const MyName = document.getElementById('MyName');
+MyName.addEventListener('mouseover', () => {
+    MyName.style.fontSize = "x-large";
+    MyName.style.fontWeight = "bold";
+});
+
+MyName.addEventListener('mouseout', () => {
+    MyName.style.fontSize = "1.25rem";
+    MyName.style.fontWeight = "normal";
+});
 
 
 
-//Target portfolio frames - Focus effest on mose over.
+//Target portfolio frames - Focus effect on mouse over.
 const frames = document.getElementsByClassName('frame');
 
 for (let i = 0; i < frames.length; i += 1) {
